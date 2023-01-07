@@ -6,3 +6,30 @@ h1 {
     text-align: center;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: wrap;
+    gap: 5px;
+}
+
+button {
+    border: none;
+    background-color: #38bdf8;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+button:hover {
+    transform: translate(0, 1px);
+    transform: scale(1.1);
+    transition-delay: 10ms;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    opacity: 80%;
+}
