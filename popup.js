@@ -3,7 +3,7 @@ const summarySubmitBtn = document.getElementById("summarySubmit");
 const answerSubmitBtn = document.getElementById("answerSubmit");
 const result = document.getElementById("result");
 
-const token = "";
+const token = "your token here";
 
 async function getSummary(search) {
 
@@ -35,7 +35,7 @@ async function getAnswer(search, context) {
     };
 
     const response = await fetch(
-        "https://api-inference.huggingface.co/models/huggingface-course/bert-finetuned-squad",
+        "https://api-inference.huggingface.co/models/deepset/roberta-base-squad2",
         {
             headers: { Authorization: `Bearer ${token}` },
             method: "POST",
