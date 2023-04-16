@@ -18,5 +18,9 @@
         "http://*/*",
         "https://*/*",
         "<all_urls>"
-      ]
+    ],
+    "icons": {
+        "48": "icons/logo48x48.png",
+        "128": "icons/logo128x128.png"
+    }
 }
