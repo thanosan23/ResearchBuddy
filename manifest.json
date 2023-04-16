@@ -9,12 +9,14 @@
     "permissions": [
         "activeTab",
         "storage",
-        "http://*/*",
-        "https://*/*",
         "activeTab",
-        "<all_urls>",
         "tabs",
         "scripting",
         "storage"
-    ]
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*",
+        "<all_urls>"
+      ]
 }
